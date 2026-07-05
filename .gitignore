@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+.venv/
+venv/
+*.pt
+*.safetensors
+M-ABSA-main/
+deberta-coursera-finetuned/
+tmp_trainer/
+Final_*.csv
+.claude/
