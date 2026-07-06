@@ -3,7 +3,7 @@ import numpy as np
 
 # --- Define the file path for the restored data ---
 # FIX: Using the deduplicated file path, as that is the final cleaned version
-INPUT_FILEPATH = '/Users/johnchen/Desktop/Programming/Sentiment Analysis/brooking_full_text_restored.csv' 
+INPUT_FILEPATH = 'brooking_full_text_restored.csv' 
 # Using the restored file path as requested in the context of the prompt
 
 def count_and_list_blank_full_text(input_filepath):

@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 
 # --- Define the file paths using the locations you provided ---
-REFERENCE_FILEPATH = '/Users/johnchen/Desktop/Programming/Sentiment Analysis/brooking_no_full_text.csv'
-CORRUPTED_FILEPATH = '/Users/johnchen/Desktop/Programming/Sentiment Analysis/brooking_full_text.csv'
-OUTPUT_FILEPATH = '/Users/johnchen/Desktop/Programming/Sentiment Analysis/brooking_full_text_restored.csv'
+REFERENCE_FILEPATH = 'brooking_no_full_text.csv'
+CORRUPTED_FILEPATH = 'brooking_full_text.csv'
+OUTPUT_FILEPATH = 'brooking_full_text_restored.csv'
 
 def restore_full_text_data(reference_filepath, corrupted_filepath, output_filepath):
     """

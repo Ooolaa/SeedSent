@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # --- Define the file paths using the location from the previous step ---
-INPUT_FILEPATH = '/Users/johnchen/Desktop/Programming/Sentiment Analysis/brooking_full_text_restored.csv'
-OUTPUT_FILEPATH = '/Users/johnchen/Desktop/Programming/Sentiment Analysis/brooking_full_text_deduplicated.csv'
+INPUT_FILEPATH = 'brooking_full_text_restored.csv'
+OUTPUT_FILEPATH = 'brooking_full_text_deduplicated.csv'
 
 def remove_duplicates_and_report(input_filepath, output_filepath):
     """

@@ -1,0 +1,16 @@
+torch>=2.2
+transformers>=4.40
+datasets>=2.19
+setfit>=1.0
+scikit-learn>=1.4
+pandas>=2.0
+numpy>=1.26
+tqdm>=4.66
+sentencepiece>=0.2
+
+# test_brat_mt5.py — loading M-ABSA mT5 checkpoints (T5FineTuner is a LightningModule)
+pytorch-lightning>=2.2
+
+# crawler/ scripts
+selenium>=4.20
+webdriver-manager>=4.0

@@ -6,7 +6,7 @@ from tqdm import tqdm
 from transformers import T5Tokenizer
 
 # Add path to the source code folder
-sys.path.append("/Users/johnchen/Desktop/Programming/Sentiment Analysis/M-ABSA-main/eval_baseline_mT5")
+sys.path.append("M-ABSA-main/eval_baseline_mT5")
 
 from main import T5FineTuner
 # Note: evaluate in main.py requires specific args, we will use a simplified inference loop here
@@ -41,7 +41,7 @@ def load_brat_as_mabsa(txt_path, ann_path):
 # --- Execution ---
 # 1. Load Model & Tokenizer
 # Update this to your 'first.ckpt' path
-ckpt_path = "/Users/johnchen/Desktop/Programming/Sentiment Analysis/M-ABSA-main/eval_baseline_mT5/outputs/uabsa/coursera/extraction/first.ckpt"
+ckpt_path = "M-ABSA-main/eval_baseline_mT5/outputs/uabsa/coursera/extraction/first.ckpt"
 
 print(f"Loading mT5 Checkpoint...")
 model = T5FineTuner.load_from_checkpoint(ckpt_path)

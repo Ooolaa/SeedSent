@@ -35,7 +35,9 @@ Experiments in aspect-based sentiment analysis: fine-tuning and benchmarking tra
 ## Setup
 
 ```bash
-pip install torch transformers datasets setfit scikit-learn pandas tqdm
+pip install -r requirements.txt
 ```
 
 Scripts auto-detect Apple Silicon (`mps`) and fall back to CPU.
+
+`test_brat_mt5.py` additionally expects the [M-ABSA](https://github.com/swaggy66/M-ABSA) repository checked out as `M-ABSA-main/` in the project root (it imports `T5FineTuner` from `M-ABSA-main/eval_baseline_mT5/main.py`) plus a fine-tuned mT5 checkpoint under `M-ABSA-main/eval_baseline_mT5/outputs/`.
