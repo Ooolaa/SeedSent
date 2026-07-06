@@ -1,6 +1,6 @@
-# Aspect-Based Sentiment Analysis (ABSA) Experiments
+# SeedSent — Few-Shot LLM-Guided ABSA via Sequential DeBERTa-v3 Fine-Tuning
 
-Experiments in aspect-based sentiment analysis: fine-tuning and benchmarking transformer models (DeBERTa-v3, mT5, SetFit) on public ABSA datasets, plus a preprocessing pipeline that turns scraped think-tank articles (Brookings, Hudson Institute) into sentence-level data ready for annotation in [brat](https://brat.nlplab.org/).
+Aspect-based sentiment analysis with a small labelled seed set: fine-tuning and benchmarking transformer models (DeBERTa-v3, mT5, SetFit) on public ABSA datasets, plus a preprocessing pipeline that turns scraped think-tank articles (Brookings, Hudson Institute) into sentence-level data ready for annotation in [brat](https://brat.nlplab.org/).
 
 ## What's here
 
